@@ -12,13 +12,16 @@
         <div id="centrovac">
         <header>
         <h1>Objem krychle</h1>
-        <p> Velikost hrany (m): </p> <input type=number id="strana_a" oninput="vypocet()">
-        <p> Objem (m³): <span id="vysledek"></span> </p> <script src="výpočet.js"></script>   
+        <p> Velikost hrany (m): </p> <input type=number id="strana_a" oninput="vypocet()"></p>
+        <p> Objem (m³): </p> <input type=number id="hodnota"><span id="vysledek2"></span>
+        <button onclick="ukazatvysledek()">VYHODNOTIT</button><br></p>
+        <button onclick="spravnyvysledek()">ZOBRAZIT VÝSLEDEK</button><br></p>
+        <p> Správný výsledek: <span id="vysledek"></span> </p> <script src="výpočet.js"></script>  
         </header>
             <section>
-                <img src="krychle.png" alt="krychle" width="25%"/>
+                <img src="krychle vlastní.png" alt="krychle" width="25%"/>
                 <p>
                 Pod tímto odkazem najdete vysvětlení výpočtu: <a href="Objem krychle - postup.html">Objem krychle - postup</a>.
                 </p>
 </body>
-</html>
+</html> 
